@@ -36,7 +36,7 @@ Finally, please skim the lab instructions in order to be prepared for what to do
     1. Bad physical connections, because the USB connector needs to be pressed fully into the Artemis board.
     2. If you are running Windows and the first compilation takes a long time, try adding "C:\Program Files\Arduino" (or the particular project folder) to the antivirus exclusions.
     3. Switch from the SVL bootloader to the Ambiq bootloader.
-    4. If the bootloader cannot connect, you will need to [update the CH340 Driver](https://www.wch-ic.com/downloads/CH341SER_ZIP.html).
+    4. If the bootloader cannot connect, you will need to [update the CH340 Driver](https://learn.sparkfun.com/tutorials/how-to-install-ch340-drivers/all).
     5. If you are running MacOS Sequoia, you will need to *unplug the board from your computer and plug it back in* between arduino code uploads. This is a known issue, Sparkfun's current advice is to roll the OS back. If you find a solution, please include it on Ed!
     6. Close the serial monitor (this can sometimes create cross-talk and prevent board programming).
 2. In File->Examples->01.Basics, run Blink. (Note: you may need to slow the baud rate down for it to work.)
